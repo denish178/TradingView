@@ -1,0 +1,27 @@
+.home-page {
+  min-height: 100vh;
+}
+
+.home-page section {
+  margin-bottom: 0;
+}
+
+.home-page .hero {
+  margin-bottom: 0;
+}
+
+.home-page .stats {
+  margin-bottom: 0;
+}
+
+.home-page .awards {
+  margin-bottom: 0;
+}
+
+.home-page .education {
+  margin-bottom: 0;
+}
+
+.home-page .pricing {
+  margin-bottom: 0;
+}

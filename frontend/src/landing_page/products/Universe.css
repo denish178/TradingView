@@ -1,0 +1,72 @@
+/* Main container for the "Universe" section */
+.universe-section {
+  font-family: 'Inter', sans-serif;
+}
+
+/* Main heading style */
+.universe-heading {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #1a1a1a;
+  margin-bottom: 0.5rem;
+}
+
+/* Subheading style */
+.universe-subheading {
+  font-size: 1.1rem;
+  color: #5a6773;
+  max-width: 600px;
+  margin: 0 auto 2rem auto;
+}
+
+/* Styling for each partner card */
+.partner-card {
+  padding: 1.5rem;
+  text-align: center;
+  border: 1px solid transparent;
+  /* Start with a transparent border */
+  border-radius: 8px;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+}
+
+.partner-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.07);
+  border-color: #E0E0E0;
+}
+
+/* This is the key part: the container for the logo */
+.partner-logo-container {
+  height: 80px;
+  /* Set a fixed height for all logo containers */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+/* Styling for the image itself */
+.partner-logo-container img {
+  max-height: 100%;
+  /* Ensure the image doesn't exceed the container's height */
+  max-width: 100%;
+  /* Ensure the image doesn't exceed the container's width */
+  width: auto;
+  /* Maintain aspect ratio */
+  object-fit: contain;
+  /* Ensures the entire logo is visible without distortion */
+}
+
+/* Partner description text */
+.partner-description {
+  font-size: 0.9rem;
+  color: #5a6773;
+  line-height: 1.5;
+}
+
+/* Signup button styling */
+.universe-section .btn-primary {
+  min-width: 200px;
+  padding: 0.75rem 1.5rem;
+}

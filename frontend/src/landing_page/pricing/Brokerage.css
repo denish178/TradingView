@@ -1,0 +1,86 @@
+.brokerage {
+  padding: 4rem 0;
+  background-color: white;
+}
+
+.brokerage h2 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.brokerage p {
+  font-size: 1.1rem;
+  color: #666;
+  margin-bottom: 3rem;
+  text-align: center;
+}
+
+.brokerage-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  margin-top: 3rem;
+}
+
+.brokerage-card {
+  background: #f8f9fa;
+  padding: 2rem;
+  border-radius: 10px;
+  text-align: center;
+  transition: transform 0.3s ease;
+  border: 2px solid transparent;
+}
+
+.brokerage-card:hover {
+  transform: translateY(-5px);
+  border-color: #007bff;
+}
+
+.brokerage-card.featured {
+  border-color: #007bff;
+  background: white;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.brokerage-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #333;
+  margin-bottom: 1rem;
+}
+
+.brokerage-price {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: #007bff;
+  margin-bottom: 1rem;
+}
+
+.brokerage-features {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 2rem;
+}
+
+.brokerage-features li {
+  padding: 0.5rem 0;
+  color: #666;
+}
+
+.btn-brokerage {
+  background-color: #007bff;
+  border-color: #007bff;
+  color: white;
+  padding: 0.75rem 2rem;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-brokerage:hover {
+  background-color: #0056b3;
+  color: white;
+}
